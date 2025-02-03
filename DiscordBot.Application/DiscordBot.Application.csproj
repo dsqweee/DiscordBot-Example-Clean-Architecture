@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Discord.Net.WebSocket" Version="3.17.1" />
+	  <PackageReference Include="Discord.Net.Commands" Version="3.17.1" />
+  </ItemGroup>
+	
+ <ItemGroup>
+      <ProjectReference Include="..\DiscordBot.Core\DiscordBot.Core.csproj" />
+  </ItemGroup>
+
+</Project>

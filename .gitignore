@@ -1,0 +1,66 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Build Results of VS
+*.build.csdef
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Visual Studio files
+.vs/
+.vscode/
+*.code-workspace
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Package directories (NuGet v3)
+**/package-lock.json
+**/project.lock.json
+
+# Backup & temporary files
+*~
+*.bak
+*.tmp
+*.swp
+*.cache
+*.log
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testresults
+
+# Publish output
+publish/
+*.publish.xml
+
+# Others
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Database files
+*.mdf
+*.ldf
